@@ -150,7 +150,11 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on bikeshare users.
+    
+    The Gender and Birth Year columns are not present in one of the files. Therefore, we verify if
+    this data exists in the table.
+    """
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
@@ -176,6 +180,9 @@ def user_stats(df):
     print('-'*40)
 
 def display_data(df):
+    """
+    This method asks the user if they want to display lines of raw data from the chosen city.
+    """
     rows = 5
     check = input('Would you like to see the first 5 lines of raw data? (yes/no):').lower()
     if(check != 'yes'):
@@ -191,6 +198,10 @@ def display_data(df):
                 check = 'no'
 
 def main():
+    """
+    Once the script is running, after displaying the information that was requested, it will ask the user
+    if they want to display different kind of information.
+    """
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
