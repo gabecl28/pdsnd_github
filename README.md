@@ -10,7 +10,7 @@ Replace the Project Title
 This python code displays different kinds of statistics of a bike rental application in 3 major cities of the US: New York City, Washington D.C., and Chicago. It asks for user input regarding which city they would like to display information for and can also filter for different months and days of the week.
 
 ### Files used
-Include the files used
+This project uses the **bikeshare.py** file for the code and the **chicago.csv**, **new_york_city.csv**, and **washington.csv** files for the data. 
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
