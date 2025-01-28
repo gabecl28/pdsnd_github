@@ -157,7 +157,11 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on bikeshare users.
+    
+    The Gender and Birth Year columns are not present in one of the files. Therefore, we verify if
+    this data exists in the table.
+    """
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
