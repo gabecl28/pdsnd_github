@@ -7,7 +7,7 @@ This project and README file were created on **January 28, 2025**.
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+This python code displays different kinds of statistics of a bike rental application in 3 major cities of the US: New York City, Washington D.C., and Chicago. It asks for user input regarding which city they would like to display information for and can also filter for different months and days of the week.
 
 ### Files used
 Include the files used
