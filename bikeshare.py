@@ -186,6 +186,9 @@ def user_stats(df):
     print('-'*40)
 
 def display_data(df):
+    """
+    This method asks the user if they want to display lines of raw data from the chosen city.
+    """
     rows = 5
     check = input('Would you like to see the first 5 lines of raw data? (yes/no):').lower()
     if(check != 'yes'):
