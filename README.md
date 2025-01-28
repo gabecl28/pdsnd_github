@@ -4,7 +4,7 @@
 This project and README file were created on **January 28, 2025**.
 
 ### Project Title
-Replace the Project Title
+This project is called **US Bikeshare Data**.
 
 ### Description
 This python code displays different kinds of statistics of a bike rental application in 3 major cities of the US: New York City, Washington D.C., and Chicago. It asks for user input regarding which city they would like to display information for and can also filter for different months and days of the week.
