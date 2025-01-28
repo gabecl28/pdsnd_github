@@ -201,6 +201,10 @@ def display_data(df):
                 check = 'no'
 
 def main():
+    """
+    Once the script is running, after displaying the information that was requested, it will ask the user
+    if they want to display different kind of information.
+    """
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
